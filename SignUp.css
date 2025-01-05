@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.yojnaImg {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.signup-container {
+    width: 100%;
+    background: #e1fef3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.signup-container span {
+    color: #3927ff;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 96%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+}
+
+.otp-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.otp-button {
+    padding: 10px 15px;
+    background-color: #2878f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.otp-inputs {
+    display: flex;
+    gap: 5px;
+}
+
+.otp-inputs input {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.link-digilocker {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.link-digilocker:hover {
+    text-decoration: underline;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #0dbf49;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
