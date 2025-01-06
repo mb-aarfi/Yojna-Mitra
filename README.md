@@ -62,7 +62,6 @@ YojanaMitra brings together **AI, OCR, RAG, and NLP** to create a personalized a
 
 ---
 
-👩‍🌾 **Empowering Priya and Millions Like Her!**  
 Join us in making a difference. Let’s ensure **no one is left behind** in accessing what they deserve. Together, we can create a more inclusive India! 🌐  
 
 👉 **Follow Our Journey & Support Us!**
