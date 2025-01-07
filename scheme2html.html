@@ -186,26 +186,22 @@
   </footer>
 
 <script>
-  // Toggle the eligibility form
 document.getElementById('toggle-btn').addEventListener('click', function() {
     const eligibilityForm = document.getElementById('eligibility-form');
     const formIsVisible = eligibilityForm.style.display === 'flex';
     eligibilityForm.style.display = formIsVisible ? 'none' : 'flex';
 });
 
-// Close the eligibility form
 document.getElementById('close-btn').addEventListener('click', function() {
     document.getElementById('eligibility-form').style.display = 'none';
 });
 
-// Check eligibility logic
 document.getElementById('check-eligibility-btn').addEventListener('click', function() {
     const age = parseInt(document.getElementById('age').value, 10);
     const income = parseInt(document.getElementById('income').value, 10);
     const businessType = document.getElementById('business-type').value;
     const resultDiv = document.getElementById('eligibility-result');
 
-    // Eligibility criteria (customize as per requirements)
     let message = '';
     if (isNaN(age) || isNaN(income)) {
         message = "Please enter valid age and income.";
@@ -219,7 +215,6 @@ document.getElementById('check-eligibility-btn').addEventListener('click', funct
         message = "Congratulations! You are eligible for the scheme.";
     }
 
-    // Display the result
     resultDiv.textContent = message;
     resultDiv.style.color = message.includes("failed") ? "red" : "green";
 });
